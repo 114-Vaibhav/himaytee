@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial- scale=1.0"> I
+    <title>हिमायती</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap"
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font- awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="media/logo.png" width="300px">
+                    </div>
+                    <div class="welcome">
+                        <h2><b><i>WELCOME TO HIMAYATEE</i></b></h2>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <h3>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="account.html">Account</a></li>
+                            </h3>
+                        </ul>
+                        <img src="media/" class="menu-icon" onclick="menutoggle()">
+                    </nav>
+                </div>
+    </header>
+    <main>
+
+
+
+    </main>
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="media/logo.png">
+                        <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the
+                            Many. </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="https://forms.gle/ZnEqsdCSfdKoSm6d7">
+                            <h3>Any Query</h3>
+                        </a>
+
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/vaibhavG004">Facebook</a></li>
+                            <li><a href="https://twitter.com/">Twitter</a></li>
+                            <li><a href="https://everythingwithvg.blogspot.com/">Blogs</a></li>
+                            <li><a href="https://instagram.com/vaibhavg_04?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a></li>
+                            <li><a href="https://www.youtube.com/@everythingwithvg7208/about">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2023 VSG</p>
+        </div>
+        </div>
+    </footer>
+
+    <!-- -js for toggle menu-->
+    <script>
+        // Get the element with the ID "MenuItems"
+        var MenuItems = document.getElementById("MenuItems");
+
+        // Initially, set the maxHeight to "0px" to hide the menu
+        MenuItems.style.maxHeight = "0px";
+
+        // Define a function to toggle the menu
+        function menutoggle() {
+            // Check if the current maxHeight is "0px"
+            if (MenuItems.style.maxHeight == "0px") {
+                // If it's "0px", set it to "200px" to show the menu
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                // If it's not "0px", set it back to "0px" to hide the menu
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
